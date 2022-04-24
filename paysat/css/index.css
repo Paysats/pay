@@ -1,0 +1,181 @@
+body{
+    background-color: #00a85a;
+    margin: 0;
+}
+#div_meno{
+
+    background-color: #73d781;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.menu_icon{
+    width: 30px;
+padding: 10px;
+}
+.menu_icon:hover{
+    background-color: green;
+}
+#div_login{
+    padding: 10px;
+}
+.ttx_in{
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+     border-color: white;
+    border-radius: 6px;
+}
+#frm_login{
+    padding: 15px;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 7px;
+}
+#pix_logo{
+    width: 100%;
+    border-radius: 10px;
+}
+#btn_login,#btn_sign_up{
+    background-color: #00a85a;
+    border-color: white;
+    border-radius: 6px;
+}
+#div_create,#div_sign_up{
+    color: #00a85a;
+    font-weight: bold;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+}
+#sp_close{
+    padding-bottom: 15px;
+}
+#div_sign_up{
+    height: 80%;
+    display: none;
+    padding-right: 20px;
+}
+.ttx_up{
+        width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+     border-color: #00a85a;
+    border-radius: 6px;
+}
+#txt_otp{
+    width: 60%;
+    border: none;
+}
+#div_otp{
+    position: relative;
+    border: solid #00a85a 2px;
+    text-align: left;
+
+    border-radius: 6px;
+}
+#div_send_otp{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: white;
+   padding: 17px;
+    background-color: orange;
+    width: 80px;
+    text-align: center;
+}
+#div_send_otp:active{
+    background-color: #00a85a;
+}
+#div_processing{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba(0,0,0,0.3);
+    text-align: center;
+    padding: 15px;
+color: white;
+    display: none;
+}
+#div_pro_posi{
+    position: relative;
+    height: 50%;
+
+}
+.loader{
+  background-color:white;
+
+
+
+ /* position the div in center */
+  position: absolute;
+ bottom: 0;
+    left: 43%;
+
+}
+#txt_otp:focus{
+      outline: none !important;
+
+}
+#noti{
+    background-color: orange;
+    position: fixed;
+    top: 0;
+    padding: 15px;
+    text-align: center;
+    display: none;
+}
+#div_barcode{
+    margin-top: 10px;
+   color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+
+}
+#barcode{
+border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+        width: 200px;
+}
+#copy_parent{
+    margin-top: 5px;
+    border: 2px solid white;
+
+    border-radius: 10px;
+    text-align: left;
+    position: relative;
+}
+#txt_wallet{
+width: 80%;
+    border: none;
+    padding: 10px;
+}
+#txt_wallet:focus{
+   outline: none !important;
+}
+#sp_copy{
+    text-align: center;
+    padding: 6px;
+    position: absolute;
+top: 0;
+    right: 0px;
+    width: 100px;
+    background-color: orange;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+}
+#img_done{
+    width: 100%;
+}
